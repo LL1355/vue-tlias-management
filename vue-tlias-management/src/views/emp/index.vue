@@ -300,7 +300,7 @@ const deleteByIds = async () => {
 <template>
   <h1>员工管理</h1> <br>
   <el-form :inline="true" :model="searchEmp">
-    <el-form-item label="姓名">
+    <el-form-item label="你的姓名">
       <el-input v-model="searchEmp.name" placeholder="请输入员工姓名"></el-input>
     </el-form-item>
 
